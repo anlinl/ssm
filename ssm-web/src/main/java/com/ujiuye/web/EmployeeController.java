@@ -23,6 +23,8 @@ public class EmployeeController {
     public String queryBack(Employee employee){
         System.out.println(employee);
         employeeService.queryBack(employee);
+
+        System.out.println("sss");
         return "redirect:/queryAll";
     }
 
